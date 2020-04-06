@@ -20,7 +20,7 @@ namespace Lab_1
             InitializeComponent();
             o_Path = new OpenFileDialog();
             o_Path.Multiselect = false;
-            o_Path.FileName = AppDomain.CurrentDomain.BaseDirectory+"KnowledgeBase.txt";
+            o_Path.FileName = AppDomain.CurrentDomain.BaseDirectory+"KnowledgeBase.n3";
             t_Path.Text = o_Path.FileName;
         }
 
